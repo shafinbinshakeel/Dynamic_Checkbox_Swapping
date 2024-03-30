@@ -1,0 +1,24 @@
+.main{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#container1{
+    background-color: lightblue
+}
+
+#container2{
+    background-color: lightblue
+
+} 
+button{
+    width: 35%;
+    height: 3rem;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    margin-left: 10%;
+}
