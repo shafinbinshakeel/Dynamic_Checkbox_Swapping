@@ -22,3 +22,13 @@ button{
     color: white;
     margin-left: 10%;
 }
+
+.selectAllCheckbox{
+    width: 15%;
+    height: 3rem;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    margin-left: 22%;
+}

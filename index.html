@@ -7,7 +7,10 @@
 </head>
 <link rel="stylesheet" href="style.css">
 <body>
-   <div class="main">
+    <button class="selectAllCheckbox" onclick="selectAllLeftCheckboxes()">Select All Left Checkboxes</button>
+    <button class="selectAllCheckbox" onclick="selectAllRightCheckboxes()">Select All Right Checkboxes</button>
+
+    <div class="main">
         <div id="container1" >
             <label class="checkbox"><input type="checkbox" name="checkbox" value=" 1"> 1</label>
             <label class="checkbox"><input  type="checkbox" name="checkbox" value=" 2"> 2</label>
@@ -22,9 +25,9 @@
             <label class="checkbox"><input type="checkbox" name="checkbox" value=" 9"> 9</label>
             <label class="checkbox"><input type="checkbox" name="checkbox" value=" 10"> 10</label>
         </div>
-   </div>
+    </div>
    
-   <button onclick="swapToRightCheckboxes()">Add Checkbox to Right</button>
+    <button onclick="swapToRightCheckboxes()">Add Checkbox to Right</button>
     <button onclick="swapToLeftCheckboxes()">Add Checkbox to Left</button>
     <script src="script.js"></script>
 </body>

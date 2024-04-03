@@ -139,3 +139,39 @@ function swapToLeftCheckboxes(){
         document.getElementById("container1").appendChild(labelContainer)
     }
 }
+
+var choiceLeft=1
+function selectAllLeftCheckboxes(){
+    const temp=document.getElementById("container1")
+    const leftDiv=temp.querySelectorAll("input[type='checkbox']")
+    if(choiceLeft==1){
+        for(let i=0;i<leftDiv.length;i++){
+                leftDiv[i].checked=true
+            }
+            choiceLeft=2
+        }
+    else if(choiceLeft==2){
+        for(let i=0;i<leftDiv.length;i++){
+            leftDiv[i].checked=false
+        }
+        choiceLeft=1
+    }
+}
+
+var choiceRight=1
+function selectAllRightCheckboxes(){
+    const temp=document.getElementById("container2")
+    const rightDiv=temp.querySelectorAll("input[type='checkbox']")
+    if(choiceRight==1){
+        for(let i=0;i<rightDiv.length;i++){
+                rightDiv[i].checked=true
+            }
+            choiceRight=2
+        }
+    else if(choiceRight==2){
+        for(let i=0;i<rightDiv.length;i++){
+            rightDiv[i].checked=false
+        }
+        choiceRight=1
+    }
+}
